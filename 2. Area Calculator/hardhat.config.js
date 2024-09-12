@@ -1,16 +1,23 @@
-require("@nomicfoundation/hardhat-ignition");
 require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-ethers");
+require("@nomicfoundation/hardhat-verify");
+require("dotenv").config();
 
 module.exports = {
-  solidity: "0.8.12",
-  // other configurations
+  solidity: "0.8.24",
   networks: {
+    // for testnet
     sepolia: {
-      url: "https://sepolia.infura.io/v3/2c7f6d8116fd45adb63c13f00c776087",
-      accounts: [
-        "0x375779fa4c55dacbab26e7315884a11e8404f31830a3afac7576bfdd568f608b",
-      ],
+      url: process.env.SEPOLIA_URL,
+      accounts: [process.env.ACCOUNT_PRIVATE_KEY],
+      gasPrice: 1000000000,
     },
+  },
+  etherscan: {
+    apiKey: {
+      sepolia: process.env.ETHERSCAN_APIKEY,
+    },
+  },
+  sourcify: {
+    enabled: false,
   },
 };

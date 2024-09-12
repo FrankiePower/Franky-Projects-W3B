@@ -1,0 +1,53 @@
+const { expect } = require("chai");
+
+describe("AreaCalculator", function () {
+  let AreaCalculator;
+  let areaCalculator;
+  let owner;
+
+  beforeEach(async function () {
+    // Deploy the smart contract before each test
+    AreaCalculator = await ethers.getContractFactory("areaCalculator");
+    [owner] = await ethers.getSigners();
+    areaCalculator = await AreaCalculator.deploy();
+    await areaCalculator.deployed();
+  });
+
+  describe("Triangle", function () {
+    it("should correctly calculate the area of a triangle", async function () {
+      const base = 10;
+      const height = 5;
+      await areaCalculator.Triangle(base, height);
+      const area = await areaCalculator.getArea();
+      expect(area).to.equal((base * height) / 2);
+    });
+  });
+
+  describe("Square", function () {
+    it("should correctly calculate the area of a square", async function () {
+      const side = 4;
+      await areaCalculator.Square(side);
+      const area = await areaCalculator.getArea();
+      expect(area).to.equal(side * side);
+    });
+  });
+
+  describe("Rectangle", function () {
+    it("should correctly calculate the area of a rectangle", async function () {
+      const length = 8;
+      const width = 3;
+      await areaCalculator.Rectangle(length, width);
+      const area = await areaCalculator.getArea();
+      expect(area).to.equal(length * width);
+    });
+  });
+
+  describe("getArea", function () {
+    it("should return the correct area", async function () {
+      const side = 6;
+      await areaCalculator.Square(side);
+      const area = await areaCalculator.getArea();
+      expect(area).to.equal(side * side);
+    });
+  });
+});

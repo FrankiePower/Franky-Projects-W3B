@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+# Area Calculator
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a simple calculator that calculates the areas of three shapes: triangle, square, rectangle.
 
-Try running some of the following tasks:
+# Deployed to Sepolia
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+CREATOR ADDRESS = 0xf1bEAAb3D518994d74248f01b862E9E01534d91D -LISK MAIN.
+
+# Deployed Addresses
+
+areaCalculatorModule#areaCalculator - 0x1C34B4051e868f36431246d68FAF450e791E0eEB
+
+# Verifying deployed contracts
+
+Verifying contract "contracts/AreaCalculator.sol:areaCalculator" for network sepolia...
+Successfully verified contract "contracts/AreaCalculator.sol:areaCalculator" for network sepolia:
+
+- https://sepolia.etherscan.io/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code

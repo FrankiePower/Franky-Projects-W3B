@@ -1,5 +1,5 @@
-//require("@nomicfoundation/hardhat-verify");
-require("@nomicfoundation/hardhat-ignition");
+require("@nomicfoundation/hardhat-verify");
+
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
@@ -9,7 +9,7 @@ module.exports = {
   networks: {
     // for testnet
     "lisk-sepolia": {
-      url: "https://rpc.sepolia-api.lisk.com",
+      url: process.env.LISK_RPC_URL,
       accounts: [process.env.LISK_PRIVATE_KEY],
       gasPrice: 1000000000,
     },

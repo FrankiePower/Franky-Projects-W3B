@@ -11,3 +11,14 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+# Deployed Addresses
+
+storagemodule#Storage - 0x8cC4218B76E056ADB92d883b289274ff2475eBDd
+
+Verifying deployed contracts
+
+Verifying contract "contracts/Storage.sol:Storage" for network lisk-sepolia...
+Successfully verified contract "contracts/Storage.sol:Storage" for network lisk-sepolia:
+
+- https://sepolia-blockscout.lisk.com//address/0x8cC4218B76E056ADB92d883b289274ff2475eBDd#code

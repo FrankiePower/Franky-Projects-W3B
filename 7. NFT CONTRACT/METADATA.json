@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Powers",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Hair color",
+      "value": "Blue"
+    }
+  ],
+  "description": "The world's best shipwright and leader of the franky family.",
+  "image": "ipfs://QmW1aypcYMt9P2aTXfa53ckHMCE5CBKNSwatZqnxZi857E",
+  "name": "Franky"
+}

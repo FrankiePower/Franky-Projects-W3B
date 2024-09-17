@@ -17,3 +17,16 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js
 Deployed Addresses
 
 LISK ADDRESS- 0xA2c27575dacA229f76eC43E83E2AF30a4F3Aa954
+
+[ NFTModule ] successfully deployed 🚀
+
+Deployed Addresses
+
+NFTModule#MyNFT - 0x85dE0882112F798058a6819e0D51a863Ac80563A
+
+Verifying deployed contracts
+
+Verifying contract "contracts/NFT.sol:MyNFT" for network sepolia...
+Successfully verified contract "contracts/NFT.sol:MyNFT" for network sepolia:
+
+- https://sepolia.etherscan.io/address/0x85dE0882112F798058a6819e0D51a863Ac80563A#code

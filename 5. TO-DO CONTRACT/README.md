@@ -1,31 +1,65 @@
-# Sample Hardhat Project
+## Todo Dapp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A secure and transparent todo app powered by smart contracts on the blockchain.
 
-Try running some of the following tasks:
+## Description
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+This project implements a smart contract for a decentralized todo app. Users can create, mark complete, and view their tasks on the blockchain. This approach offers several benefits:
+
+- **Immutability:** Tasks cannot be tampered with once added to the blockchain.
+- **Transparency:** Anyone can verify the existence and completion status of tasks.
+- **Decentralization:** No single entity controls the data, reducing the risk of downtime or censorship.
+
+This smart contract is written in Solidity and can be deployed on a blockchain platform like Ethereum.
+
+## Getting Started
+
+**Prerequisites:**
+
+- Familiarity with blockchain technology and smart contracts.
+- Node.js and npm installed on your system.
+- A development environment with Solidity support (e.g., Remix, Truffle, Hardhat).
+
+* ## \*Installation:\*\*
+
+1. Clone the project repository:
+
+```
+git clone https://github.com/FrankiePower/Web3Bridge-Foundations.git
+
 ```
 
-Deploying [ TodoModule ]
+2. Install dependencies:
 
-Batch #1
-Executed TodoModule#Todo
+```
+cd 5. TO-DO CONTRACT
+npm install
 
-[ TodoModule ] successfully deployed 🚀
+```
 
-Deployed Addresses
+## **Execution:**
+
+1. Follow the instructions for your chosen development environment to deploy the smart contract to a blockchain network. (Instructions vary depending on the environment).
+
+2. Interact with the deployed contract using your development environment's tools or a front-end application.
+
+## Authors
+
+Franklin Ejezie
+[@FrankyEjezie](https://x.com/FrankyEjezie)
+
+# Deployed Addresses
 
 TodoModule#Todo - 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 
-Verifying deployed contracts
-
-Verifying contract "contracts/TODO.sol:Todo" for network lisk-sepolia...
-Successfully verified contract "contracts/TODO.sol:Todo" for network lisk-sepolia:
-
 - https://sepolia-blockscout.lisk.com/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code
+
+## Help
+
+For troubleshooting deployment or interaction with the smart contract, refer to the documentation for your chosen development environment. You can also find helpful resources online about Solidity and blockchain development.
+
+**Additional resources:**
+
+- [Solidity Documentation](https://docs.soliditylang.org/)
+- Hardhat Documentation [invalid URL removed]
+- [Remix IDE](https://remix.ethereum.org/)

@@ -6,6 +6,16 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 
 A simple contract to lock a certain amount of money and withdraw on a future date.
 
+## Installation:
+
+1. Clone the project repository:
+
+2. Install dependencies
+
+# Test
+
+To run test,
+
 # Deployed to Lisk.
 
 CREATOR ADDRESS = 0xf1bEAAb3D518994d74248f01b862E9E01534d91D -LISK MAIN.

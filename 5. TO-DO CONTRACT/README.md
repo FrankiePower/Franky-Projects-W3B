@@ -20,7 +20,7 @@ This smart contract is written in Solidity and can be deployed on a blockchain p
 - Node.js and npm installed on your system.
 - A development environment with Solidity support (e.g., Remix, Truffle, Hardhat).
 
-* ## \*Installation:\*\*
+## Installation:
 
 1. Clone the project repository:
 

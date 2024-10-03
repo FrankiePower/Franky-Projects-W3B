@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f06292;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #242424;
+  width: 500px; /* Set a width */
+  height: 200px; /* Set a height */
+  text-align: center;
+  border-radius: 15px;
+}
+
+.time {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  flex-direction: row;
+  color: gray;
+  justify-content: space-around;
+}
+
+.time2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  flex-direction: row;
+  color: gray;
+  justify-content: space-around;
+}
+
+.one,
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

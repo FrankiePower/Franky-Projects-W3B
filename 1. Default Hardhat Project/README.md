@@ -16,15 +16,15 @@ A simple contract to lock a certain amount of money and withdraw on a future dat
 
 To run test,
 
-# Deployed to Lisk.
+# Deployer to Lisk.
 
 CREATOR ADDRESS = 0xf1bEAAb3D518994d74248f01b862E9E01534d91D -LISK MAIN.
 
-# Deployed Addresses
+# Contract Address
 
-LockModule#Lock - 0x7D8e8dafa58B09E6098179e132CCeF305B8f9eEc
+Lock - 0x7D8e8dafa58B09E6098179e132CCeF305B8f9eEc
 
-# Verifying deployed contracts
+# Verified Contract
 
 Verifying contract "contracts/Lock.sol:Lock" for network lisk-sepolia...
 Successfully verified contract "contracts/Lock.sol:Lock" for network lisk-sepolia:

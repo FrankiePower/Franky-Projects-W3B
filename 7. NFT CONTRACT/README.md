@@ -1,32 +1,19 @@
-# Sample Hardhat Project
+# NFT Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+```
+This smart contract, called MyNFT, is an ERC-721 (Non-Fungible Token) implementation that allows the minting of unique NFTs (tokens) with metadata on the Ethereum blockchain. It leverages OpenZeppelin libraries for additional functionality and security. Here's a summary:
 
-Try running some of the following tasks:
+Inherits: It inherits from ERC721URIStorage (which allows storing metadata with a token) and Ownable (which restricts certain functions to the contract owner).
+Constructor: Initializes the contract with a name ("SuperFranky") and symbol ("SPFY"), and sets the initial owner.Y
+Token Counter: Tracks the number of tokens issued with the _tokenIds variable.
+Functions:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+mintNFT: Allows the contract owner to mint a new NFT, assign it to a recipient, and associate it with a metadata URI (using tokenURI). The token ID is auto-incremented to ensure uniqueness.
+
+
+Deployed to Lisk-Sepolia and Verified
+
+Contract Deployed to: 0x9Dc6AC213cA061a248E1FaFA90a312Be09c26189
 ```
 
-# Open Sea doesn't support Lisk.
-
-Deployed Addresses
-
-LISK ADDRESS- 0xA2c27575dacA229f76eC43E83E2AF30a4F3Aa954
-
-[ NFTModule ] successfully deployed 🚀
-
-Deployed Addresses
-
-NFTModule#MyNFT - 0x85dE0882112F798058a6819e0D51a863Ac80563A
-
-Verifying deployed contracts
-
-Verifying contract "contracts/NFT.sol:MyNFT" for network sepolia...
-Successfully verified contract "contracts/NFT.sol:MyNFT" for network sepolia:
-
-- https://sepolia.etherscan.io/address/0x85dE0882112F798058a6819e0D51a863Ac80563A#code
+- https://sepolia-blockscout.lisk.com/address/0x9Dc6AC213cA061a248E1FaFA90a312Be09c26189#code

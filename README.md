@@ -89,3 +89,17 @@ Contract Deployed to: 0x85dE0882112F798058a6819e0D51a863Ac80563A
 ```
 
 - https://sepolia-blockscout.lisk.com//address/0x85dE0882112F798058a6819e0D51a863Ac80563A#code
+
+# NFT CONTRACT
+
+```
+
+This contract is a simple NFT minting system where the owner can create and assign unique NFTs with metadata to recipients.
+
+Deployed to Lisk-Sepolia and Verified
+
+Contract Deployed to: 0x9Dc6AC213cA061a248E1FaFA90a312Be09c26189
+
+```
+
+- https://sepolia-blockscout.lisk.com/address/0x9Dc6AC213cA061a248E1FaFA90a312Be09c26189#code

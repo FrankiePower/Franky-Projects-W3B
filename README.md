@@ -18,19 +18,23 @@ _Lock_ - 0x7D8e8dafa58B09E6098179e132CCeF305B8f9eEc
 
 # Area Calculator
 
+```
+
 This project is a simple calculator that calculates the areas of three shapes: triangle, square, rectangle.
 
 _Deployed to Sepolia_
 
 _areaCalculator_ - 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 
+```
+
 - https://sepolia.etherscan.io/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code
 
 ```
-
 _Deployed to Lisk-Sepolia_
 
 Contract Deployed to: 0x42556dD4ed7417eFFF3DDC0e771a404bC458beE3
+```
 
 https://sepolia-blockscout.lisk.com/address/0x42556dD4ed7417eFFF3DDC0e771a404bC458beE3#code
 
@@ -63,4 +67,11 @@ _Deployed Address to Lisk and Verified_
 _Contract Address_- 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 
 - https://sepolia-blockscout.lisk.com/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code
+
+```
+
+```
+
+```
+
 ```

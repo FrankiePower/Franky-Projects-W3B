@@ -24,14 +24,8 @@ This smart contract is written in Solidity and can be deployed on a blockchain p
 
 1. Clone the project repository:
 
-```
-git clone https://github.com/FrankiePower/Web3Bridge-Foundations.git
-
-```
-
 2. Install dependencies:
 
-```
 cd 5. TO-DO CONTRACT
 npm install
 
@@ -48,9 +42,9 @@ npm install
 Franklin Ejezie
 [@FrankyEjezie](https://x.com/FrankyEjezie)
 
-# Deployed Addresses
+# Deployed Address to Lisk and Verified
 
-TodoModule#Todo - 0x1C34B4051e868f36431246d68FAF450e791E0eEB
+Contract Address- 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 
 - https://sepolia-blockscout.lisk.com/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code
 
@@ -63,3 +57,4 @@ For troubleshooting deployment or interaction with the smart contract, refer to 
 - [Solidity Documentation](https://docs.soliditylang.org/)
 - Hardhat Documentation [invalid URL removed]
 - [Remix IDE](https://remix.ethereum.org/)
+```

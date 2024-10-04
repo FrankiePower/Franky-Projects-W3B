@@ -53,3 +53,13 @@ The contract provides a simple way to store and retrieve a number.
 Contract Deployed to: 0x8cC4218B76E056ADB92d883b289274ff2475eBDd
 
 - https://sepolia-blockscout.lisk.com//address/0x8cC4218B76E056ADB92d883b289274ff2475eBDd#code
+
+5. ## Todo Dapp
+
+A secure and transparent todo app powered by smart contracts on the blockchain.
+
+# Deployed Address to Lisk and Verified
+
+Contract Address- 0x1C34B4051e868f36431246d68FAF450e791E0eEB
+
+- https://sepolia-blockscout.lisk.com/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code

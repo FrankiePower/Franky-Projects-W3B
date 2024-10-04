@@ -79,7 +79,8 @@ Contract Address- 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 # Student Registration Contract
 
 ```
-This contract provides a way to manage student information, including adding, updating, retrieving, and removing student records, while ensuring unique identification for each student.
+This contract provides a way to manage student information including
+adding, updating, retrieving, and removing student records, while ensuring unique identification for each student.
 
 Deployed to Lisk-Sepolia and Verified
 

@@ -18,7 +18,7 @@ Lock - 0x7D8e8dafa58B09E6098179e132CCeF305B8f9eEc
 
 This project is a simple calculator that calculates the areas of three shapes: triangle, square, rectangle.
 
-# Deployed to Sepolia
+_Deployed to Sepolia_
 
 areaCalculator - 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 

@@ -1,31 +1,28 @@
-# Sample Hardhat Project
+# Student Registration Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+```
+This smart contract, called `StudentRecord`, is designed to manage student records on the blockchain. Here's a summary:
 
-Try running some of the following tasks:
+Struct: A `Student` struct stores a student's ID, name, age, and course.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+Mapping: It uses a mapping to associate unique student IDs with their corresponding student data.
+
+Events: The contract emits two events, `StudentAdded` and `StudentUpdated`, to log whenever a student is added or updated.
+
+Unique ID Generation: The contract generates a 3-digit unique ID for each student using a hash function based on the block timestamp and the sender's address.
+
+**Functions:**
+- `addStudent`: Adds a new student with a unique ID and logs the event.
+- `updateStudent`: Updates an existing student's details by ID.
+- `getStudentRecord`: Retrieves a student's record by their ID.
+- `removeStudentRecord`: Deletes a student's record by their ID.
+
 ```
 
-Deploying [ StudentRegistrationModule ]
+# Deployed to Lisk-Sepolia and Verified
 
-Batch #1
-Executed StudentRegistrationModule#StudentRecord
+```
+Contract Deployed to: 0x85dE0882112F798058a6819e0D51a863Ac80563A
+```
 
-[ StudentRegistrationModule ] successfully deployed 🚀
-
-Deployed Addresses
-
-StudentRegistrationModule#StudentRecord - 0x85dE0882112F798058a6819e0D51a863Ac80563A
-
-Verifying deployed contracts
-
-Verifying contract "contracts/Student Registration.sol:StudentRecord" for network lisk-sepolia...
-Successfully verified contract "contracts/Student Registration.sol:StudentRecord" for network lisk-sepolia:
-
-- https://sepolia-blockscout.lisk.com/address/0x85dE0882112F798058a6819e0D51a863Ac80563A#code
+- https://sepolia-blockscout.lisk.com//address/0x85dE0882112F798058a6819e0D51a863Ac80563A#code

@@ -9,7 +9,7 @@ Note that some of the Projects are foundational and intermediate level projects.
 # Default Hardhat Project - Lock Contract
 
 ```
- This contract locks a specific amount of money for a specified time declared by the owner.
+This contract locks a specific amount of money for a specified time declared by the owner.
 
 Deployed Address and Verification
 
@@ -52,7 +52,7 @@ Contract Deployed to: 0x26c5E1D15c8AcDEBD7798B25092b5e9Dfb1f2596
 
 - https://sepolia-blockscout.lisk.com//address/0x26c5E1D15c8AcDEBD7798B25092b5e9Dfb1f2596#code
 
-# NUM STORAGE
+# Num Storage
 
 ```
 The contract provides a simple way to store and retrieve a number.
@@ -75,3 +75,15 @@ Contract Address- 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 ```
 
 - https://sepolia-blockscout.lisk.com/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code
+
+# Student Registration Contract
+
+```
+This contract provides a way to manage student information, including adding, updating, retrieving, and removing student records, while ensuring unique identification for each student.
+
+Deployed to Lisk-Sepolia and Verified
+
+Contract Deployed to: 0x85dE0882112F798058a6819e0D51a863Ac80563A
+```
+
+- https://sepolia-blockscout.lisk.com//address/0x85dE0882112F798058a6819e0D51a863Ac80563A#code

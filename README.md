@@ -1,6 +1,8 @@
 # Web3Bridge-Class-Projects
 
-Projects Include Assignments,tests/assessments and personal projects i've worked on while learning at web3bridge africa. To Learn more about each contract , you can check the folder and readme of each of them.
+Projects Include Assignments,tests/assessments and personal projects i've worked on while learning at web3bridge africa.
+
+Note that some of the Projects are foundational and intermediate level projects. To Learn more about each contract, you can check the folders and readme of each of them.
 
 # CREATOR ADDRESS = 0xf1bEAAb3D518994d74248f01b862E9E01534d91D -LISK MAIN.
 
@@ -23,6 +25,8 @@ _Deployed to Sepolia_
 _areaCalculator_ - 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 
 - https://sepolia.etherscan.io/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code
+
+```
 
 _Deployed to Lisk-Sepolia_
 
@@ -59,3 +63,4 @@ _Deployed Address to Lisk and Verified_
 _Contract Address_- 0x1C34B4051e868f36431246d68FAF450e791E0eEB
 
 - https://sepolia-blockscout.lisk.com/address/0x1C34B4051e868f36431246d68FAF450e791E0eEB#code
+```

@@ -1,24 +1,19 @@
-# Sample Hardhat Project
+# Inbox Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This smart contract, called Inbox, allows storing and updating a message on the Ethereum blockchain. It has the following functionalities:
 
-Try running some of the following tasks:
+State Variable: It stores a public string called message, which can be accessed by anyone.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+Constructor: When the contract is deployed, an initial message is set.
 
-Deployed Addresses
+setMessage Function: This function allows anyone to update the stored message with a new one.
 
-inboxmodule#Inbox - 0x26c5E1D15c8AcDEBD7798B25092b5e9Dfb1f2596
+In summary, it serves as a simple message storage system where users can view and change the stored message.
 
-Verifying deployed contracts
+# CREATOR ADDRESS = 0xf1bEAAb3D518994d74248f01b862E9E01534d91D -LISK MAIN.
 
-Verifying contract "contracts/Inbox.sol:Inbox" for network lisk-sepolia...
-Successfully verified contract "contracts/Inbox.sol:Inbox" for network lisk-sepolia:
+# Deployed to Lisk-Sepolia and Verified
+
+Contract Deployed to: 0x26c5E1D15c8AcDEBD7798B25092b5e9Dfb1f2596
 
 - https://sepolia-blockscout.lisk.com//address/0x26c5E1D15c8AcDEBD7798B25092b5e9Dfb1f2596#code
